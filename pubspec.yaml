@@ -1,0 +1,28 @@
+name: nova
+description: "NOVA — estimate your 60V e-scooter's battery percentage, remaining range, and charging time from a voltage reading."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Material icon font used throughout the app.
+  cupertino_icons: ^1.0.8
+
+  # Persists the user's last-entered voltage and preferences on-device.
+  shared_preferences: ^2.3.2
+
+  # Lightweight state management for settings (dark mode, max range).
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
