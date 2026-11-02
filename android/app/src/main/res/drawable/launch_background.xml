@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shown while the Flutter UI initializes, matches the app's light
+     background so the transition into the app feels seamless. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/launchBackground" />
+</layer-list>
